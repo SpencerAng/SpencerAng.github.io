@@ -1,0 +1,34 @@
+body {margin:0px;background-image: url("images/A2_BackgroundWallImg.jpg");}
+main {height:100vh;margin: 0;}
+header {margin:0px;}
+.homePage {background-color:lightgray;margin:0px;border: 0px;padding: 0px;text-align: center;display: flex;}
+#hamIcon {flex:1}
+.homePageText {flex:15;margin: 0;font-size: 80px;}
+header ul li,.menuShow{display:flex;flex-wrap:wrap;justify-content: center;align-items: flex-start;padding:0px;margin:0px;}
+.navButton {flex:1;min-width: 300px;box-sizing: border-box;padding:0px 5px 55px 5px; margin:0px;font-size:20px; text-align: center;background-color: lightgray;height:5vh;transition: 0.5s;}
+.otherPageText{margin:10px 0px 10px 0px;background:none;border: none;font-size: 20px;}
+#histBut:hover,#holdsBut:hover,#startBut:hover,#knownBut:hover{padding-top:8px;}
+#hamIcon{background: none;border: none;}
+header ul{display:none;}
+.page{background-color: whitesmoke;margin: 5vw 10vw 5vw 10vw;border: 10px solid black;border-radius:100px;align-content: center;text-align: center;}
+#johnGillText {font-size: 25px;margin: 5% 20% 5% 20%;}
+#johnGillTitle {font-size: 50px;}
+#johnGillImage {width: 60vw;max-width: 400px;border-radius: 20%;border: 5px solid black;}
+.holdImg {width: 45vw;max-width: 400px;}
+.holdParts{background-color: whitesmoke;margin: 5vw;border: 5px dashed black;border-radius:100px;align-content: center;text-align: center;}
+.holdParts p {margin: 5% 20% 5% 20%;font-size: 25px;}
+.holdsTitle {font-size: 50px;}
+.knownParts{background-color: whitesmoke;margin: 5vw;border: 5px dashed black;border-radius:100px;justify-content: center;text-align: center;display:flex;}
+.knownTitle {font-size: 50px;}
+.KnownText {font-size: 25px;padding: 7% 15% 7% 15%;}
+.KnownImage {height: 30vw;max-width: 400px;border-radius: 20%;border: 5px solid black;}
+.startPart{background-color: whitesmoke;margin: 5vw;border: 5px dashed black;border-radius:100px;justify-content: center;text-align: center;}
+.startTitle {font-size: 50px;}
+.startText {font-size: 25px;padding: 7% 15% 7% 15%;}
+.startImage {height: 30vw;max-width: 400px;}
+#gameTitle{font-size: 50px;}
+#gameHold {position: relative;width:10vw}
+#gameSection {align-content: normal;text-align: normal;height: 800px;}
+#scorebox {font-size: 50px;}
+h1, p, button{font-family: Rough;}
+@font-face{font-family: Rough;src: url(fonts/WinkyRough-SemiBold.ttf);}
