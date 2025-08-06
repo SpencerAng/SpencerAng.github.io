@@ -31,4 +31,6 @@ header ul{display:none;}
 #gameSection {align-content: normal;text-align: normal;height: 800px;}
 #scorebox {font-size: 50px;}
 h1, p, button{font-family: Rough;}
+footer {background-color: whitesmoke;border: 5px 0px 0px 0px dashed black;border-radius:100px 100px 0px 0px;display: flex;}
+footer img {margin:auto;}
 @font-face{font-family: Rough;src: url(fonts/WinkyRough-SemiBold.ttf);}
